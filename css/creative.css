@@ -209,7 +209,8 @@ header.masthead {
   margin-bottom: 10px;
 /*   max-width: 650px; */
   max-width: 1000px;
-  margin: 0 auto; }
+/*   margin: 0 auto;  */
+}
   .portfolio-box .portfolio-box-caption {
     position: absolute;
     bottom: 0;
