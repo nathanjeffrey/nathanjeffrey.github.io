@@ -248,6 +248,13 @@ header.masthead {
       min-height: 300px;
       min-width: 400px;
     }
+  @media (min-width: 990px){
+    .portfolio-box{
+        min-height: 250px;
+        min-width: 350px;
+      }
+    }
+    
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
       font-size: 16px; }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
