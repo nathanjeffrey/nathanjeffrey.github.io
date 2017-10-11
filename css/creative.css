@@ -194,13 +194,13 @@ header.masthead {
             margin-right: auto;
             margin-left: auto; } }
 
-.skill-box {
+.service-box {
   max-width: 400px;
   margin: 50px auto 0; }
   @media (min-width: 992px) {
-    .skill-box {
+    .service-box {
       margin: 20px auto 0; } }
-  .skill-box p {
+  .service-box p {
     margin-bottom: 0; }
 
 .portfolio-box {
