@@ -207,8 +207,7 @@ header.masthead {
   position: relative;
   display: block;
   margin-bottom: 10px;
-/*   max-width: 650px; */
-  max-width: 1000px;
+  max-width: 650px;
 /*   margin: 0 auto;  */
 }
   .portfolio-box .portfolio-box-caption {
