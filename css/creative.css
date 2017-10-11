@@ -208,6 +208,7 @@ header.masthead {
   display: block;
   margin: 0 auto 10px auto;
   max-width: 650px;
+  min-height: 300px;
 /*   margin: 0 auto;  */
 }
   .portfolio-box .portfolio-box-caption {
@@ -243,16 +244,9 @@ header.masthead {
     opacity: 1; }
   .portfolio-box:focus {
     outline: none; }
-  @media (min-width: 768px) {
+  @media (min-width: 1215px) {
     .portfolio-box{
-      min-height: 300px;
       min-width: 400px;
-    }
-  @media (min-width: 990px){
-    .portfolio-box{
-        min-height: 250px;
-        min-width: 350px;
-      }
     }
     
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
