@@ -162,7 +162,7 @@
 
         </div>
         <div class="col-lg-6 col-sm-6 text-justify" style="margin-bottom: 10px;">
-          <p style="font-size: 14px">This is the home screen of the application I made for my final year project, which resulted in an A- and in addition, it is currently
+          <p id="parag">This is the home screen of the application I made for my final year project, which resulted in an A- and in addition, it is currently
           being further developed on in one of the projects of 2 doctorate students. This application aimed to help users capture positive and mundane
           memories that they might normally not be aware of, and in the long run, improve their mental well-being. In the doctoral project, it is modified
           into an app that will help the research in a very practical way (I cannot disclose the details however). It will be published in September 2019
@@ -348,7 +348,27 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
-
+    <style>
+   
+      @media only screen and (max-width: 991px), screen and (min-width:769px) {
+        #parag{
+            max-height: 427px;
+            font-size: 13px;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        #parag{
+            font-size: 9.5px;
+            max-height: 427px;
+        }
+      }
+      @media only screen and (min-width: 1200px) {
+        #parag{
+            font-size: 18px;
+            max-height: 427px;
+        }
+      }
+    </style>
   </body>
 
 </html>
